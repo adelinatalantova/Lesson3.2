@@ -92,12 +92,12 @@ public class FormFragment extends Fragment {
                 });
             }
         });
-        setupListeners();
+        //setupListeners();
     }
 
-    private void setupListeners() {
-        binding.btnSend.setOnClickListener(view -> createPost());
-    }
+  //  private void setupListeners() {
+        //binding.btnSend.setOnClickListener(view -> createPost());
+ //   }
 
     private void createPost() {
         String title = binding.edTitle.getText().toString();
